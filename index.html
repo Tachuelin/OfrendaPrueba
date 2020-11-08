@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/Multi-step-form.css">
     <link rel="stylesheet" href="assets/css/Responsive-Image-Grid.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -42,11 +43,23 @@
         </div>
     </header>
     <section id="ofrenda" class="content-section text-center bg-parallax" style="background-image: url(assets/img/menu4.jpg);">
-        <div class="container">
+        <div class="container" data-aos="zoom-out">
             <h2 style="margin-bottom: 50px; margin-top: -100px;">Altar</h2>
             <div class="box">
                 <img src="assets/img/fondoAltar.png" class="fondoAltar">
-                    <img src="assets/img/objetos.png" class="objetosAltar">
+                <img src="assets/img/objetos.png" class="objetosAltar">
+            </div>
+            <div style="margin-top: 100px;">
+                <p data-aos="fade-up" data-aos-duration="1000" style="font-family:Helvetica; font-size: 25px; font:bold background-color; background-color: rgba(16, 12, 63, 0.5)" >Los altares de muertos son un tipo de escenografía en la que participan nuestros muertos que llegan a beber, comer, descansar y convivir como una forma de dialogar con su recuerdo y su vida. 
+
+                    El altar de muertos consiste en varios pisos donde se fusionan el sincretismo de las religiones prehispánicas con la religión católica. 
+                    
+                    Los niveles básicos de un altar de muertos son el cielo y la tierra. Puede tener hasta siete niveles, donde cada escalón simboliza los pasos necesarios para llegar a Mictlán, el lugar del eterno reposo. 
+                    
+                    El altar se coloca sobre una mesa, en alguna habitación dentro del hogar, y será este el lugar donde estarán las ofrendas del Día de los Muertos. 
+                    
+                    Según la creencia, los obsequios colocados en el altar atraen a los espíritus para facilitar el viaje desde Mictlán hasta las casas de sus familiares para disfrutar una noche de fiesta. </p>
+               
             </div>
         </div>
         <hgroup></hgroup>
@@ -116,9 +129,7 @@
                     <h2>Contactanos</h2>
                     <p>En este espacio podras contactarnos y consultar el repositorio de nuestro poyecto</p>
                     <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">&nbsp; Google+</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-twitter fa-fw"></i><span class="network-name">&nbsp;Twitter</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></button></li>
+                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button" onclick="window.open('https://github.com/Tachuelin/OfrendaPrueba', '_blank')"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></button></li>
                     </ul>
                 </div>
             </div>
@@ -137,12 +148,17 @@
     <script src="assets/js/grayscale.js"></script>
     <script src="assets/js/Multi-step-form.js"></script>
     <script src="assets/js/vanilla-tilt.min.js"></script>
+    <script src="assets/js/canvas.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelectorAll(".box"), {
             max: 25,
             speed: 400
         });
     </script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
