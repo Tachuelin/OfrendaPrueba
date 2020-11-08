@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Ofrenda Virtual</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
@@ -22,6 +22,7 @@
                 aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link text-light js-scroll-trigger" href="#ofrenda">ALTAR</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link text-light js-scroll-trigger" href="#aprende">APRENDE</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#download">GALERIA</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#chatbot">CHATBOT</a></li>
@@ -29,22 +30,32 @@
             </div>
         </div>
     </nav>
-    <header class="masthead bg-parallax" style="background-image: url(assets/img/Fondo%20chido.jpg);filter: brightness(106%);" >
-        <div class="intro-body">
+    <header class="masthead bg-parallax" style="background-image: url(assets/img/menu5.jpg); ">
+        <div class="intro-body" style="position: relative; ">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
+                    <div class="col-lg-8 col-xl-7 mx-auto">
                         <h1 class="brand-heading" data-bs-hover-animate="pulse" style="background-color: #c91f1f;">CRea tu ofrenda</h1>
-                        <p class="text-light intro-text" data-bs-hover-animate="pulse" style="filter: brightness(200%) contrast(150%) saturate(112%);color: #f6f9f9;background: #d72828;">Conoce esta tradición tan importante y significativa para los mexicanos de una forma interactiva</p><a class="btn btn-link btn-circle js-scroll-trigger" role="button" data-bs-hover-animate="tada" href="#aprende" style="background: url(&quot;assets/img/intro-bg.jpg&quot;), rgba(44,11,11,0);"><i class="fa fa-angle-double-down animated"></i></a></div>
+                        <p class="text-light intro-text" data-bs-hover-animate="pulse" style="filter: brightness(200%) contrast(150%) saturate(112%);color: #f6f9f9;background: #d72828;">Conoce esta tradición tan importante y significativa para los mexicanos de una forma interactiva</p><a class="btn btn-link btn-circle js-scroll-trigger" role="button" data-bs-hover-animate="tada" href="#ofrenda" style="background: url(&quot;assets/img/intro-bg.jpg&quot;), rgba(44,11,11,0);"><i class="fa fa-angle-double-down animated"></i></a></div>
                 </div>
             </div>
         </div>
     </header>
+    <section id="ofrenda" class="content-section text-center bg-parallax" style="background-image: url(assets/img/menu4.jpg);">
+        <div class="container">
+            <h2 style="margin-bottom: 50px; margin-top: -100px;">Altar</h2>
+            <div class="box">
+                <img src="assets/img/fondoAltar.png" class="fondoAltar">
+                    <img src="assets/img/objetos.png" class="objetosAltar">
+            </div>
+        </div>
+        <hgroup></hgroup>
+    </section>
     <section id="aprende" class="content-section text-center bg-parallax" style="background-image: url(assets/img/menu1.jpg);filter: brightness(103%) contrast(126%) saturate(91%);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-xl-7 mx-auto">
-                    <h1 class="text-center" style="filter: brightness(97%);width: 634px;height: 164px;color: #f8f8f8;">VIDEOS</h1>
+                    <h2 class="text-center" style="filter: brightness(97%);width: 634px;height: 50px;color: #f8f8f8;margin-top: -100px;">VIDEOS</h2>
                 </div>
                 <div class="col-xl-6 offset-xl-0"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/d-HyDirNyA0" width="480" height="315"></iframe></div>
                 <div class="col"><iframe class="border rounded" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/z40ilWvwz3Y" width="480" height="315"></iframe></div>
@@ -56,8 +67,8 @@
     <section id="download" class="download-section content-section text-center bg-parallax" style="background-image: url(&quot;assets/img/Menu2.jpg&quot;);">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h1 data-bs-hover-animate="pulse" style="color: rgb(80,167,65);background: #2a2347;">INgresa al chatbot</h1>
-                <p class="text-light" data-bs-hover-animate="pulse" style="background: #a21818;">Aqui podras encontrar una implementación muy dinamiza para saber que es lo que crees que una ofrenda de dia de muertos debe tener</p><a class="btn btn-warning btn-default js-scroll-trigger" role="button" style="color: rgb(208,244,66);border-color: rgb(209,247,60);"
+                <h2 data-bs-hover-animate="pulse" style="color: rgb(80,167,65);background: #2a2347;">INgresa al chatbot</h2>
+                <p class="text-light" data-bs-hover-animate="pulse" style="background: #a21818;">Aquí podrás encontrar una implementación muy dinámica para saber que es lo que una ofrenda de día de muertos debe tener</p><a class="btn btn-warning btn-default js-scroll-trigger" role="button" style="color: rgb(208,244,66);border-color: rgb(209,247,60);"
                     href="#chatbot">Ayudante Virtual</a></div>
             <div class="col">
                 <div class="rig-header">
@@ -90,8 +101,9 @@
             </div>
         </div>
     </section>
-    <section id="chatbot" class="content-section text-center">
+    <section id="chatbot" class="content-section text-center bg-parallax" style="background-image: url(assets/img/Fondochido.jpg);">
     <div class="container">
+        <h2>Asistente Virtual</h2>
         <div class="row">
             <iframe src='https://webchat.botframework.com/embed/altarvirtual-bot?s=T83OmEjiPXQ.vC-1JCPqWwDcEQEb3iHDjKUZHHobtHWZa8EmqguYsNE' style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
         </div>
@@ -124,6 +136,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
     <script src="assets/js/Multi-step-form.js"></script>
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
 </body>
 
 </html>
