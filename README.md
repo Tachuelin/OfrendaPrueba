@@ -1,2 +1,2 @@
 # OfrendaPrueba
-Este es el proyecto a presentar en el Hackathon
+Creamos una plataforma web donde tendrá información sobre el día de muertos, los elementos, sus significados, el origen y unos datos interesantes. Después el usuario podrá elegir las cosas que quiere que lleve su altar poner lo que quiera y acomodarlo. Esto con la finalidad. Que se pueda hacer un altar de muertos virtual. ¿Porque? Porque no en todas partes del mundo pueden tener acceso a los elementos que se necesitan para hacer un altar, como son: el cempasúchil, las calaberitas, el pan, el papel mache y demás cosas.
